@@ -3,9 +3,12 @@ uvicorn[standard]
 gunicorn
 python-dotenv
 python-multipart
+
 bcrypt
-PyJWT
+python-jose[cryptography]
+
 sqlalchemy
 pymysql
+
 requests
 httpx
