@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+python-multipart
+
+# Database
+sqlalchemy
+pymysql
+
+# Authentication
+bcrypt
+PyJWT
+
+# HTTP/API
+requests
+httpx
