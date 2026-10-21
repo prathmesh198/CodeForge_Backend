@@ -6,6 +6,7 @@ python-dotenv
 python-multipart
 
 bcrypt
+passlib[bcrypt]
 python-jose[cryptography]
 
 mysql-connector-python
