@@ -1,0 +1,3971 @@
+{
+  "version": "1.0",
+  "platform": "CodeForge",
+  "description": "100 LeetCode-style practice problems with function-based starter templates and test cases.",
+  "problems": [
+    {
+      "id": 1,
+      "title": "Two Sum",
+      "difficulty": "Easy",
+      "topic": "Array",
+      "description": "Given an array of integers nums and an integer target, return indices of the two numbers that add up to target.",
+      "function_name": "twoSum",
+      "starter_code": {
+        "java": "class Solution {\n    public int[] twoSum(int[] nums, int target) {\n        // Write your code here\n        return new int[]{};\n    }\n}",
+        "python": "class Solution:\n    def twoSum(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto twoSum(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[2,7,11,15], 9",
+          "output": "[0,1]"
+        },
+        {
+          "input": "[3,2,4], 6",
+          "output": "[1,2]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[2,7,11,15], 9",
+          "expected_output": "[0,1]",
+          "hidden": false
+        },
+        {
+          "input": "[3,2,4], 6",
+          "expected_output": "[1,2]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Best Time to Buy and Sell Stock",
+      "difficulty": "Easy",
+      "topic": "Array",
+      "description": "Given prices where prices[i] is the price of a stock on day i, return the maximum profit from one transaction.",
+      "function_name": "maxProfit",
+      "starter_code": {
+        "java": "class Solution {\n    public int maxProfit(int[] prices) {\n        // Write your code here\n        return 0;\n    }\n}",
+        "python": "class Solution:\n    def maxProfit(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto maxProfit(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[7,1,5,3,6,4]",
+          "output": "5"
+        },
+        {
+          "input": "[7,6,4,3,1]",
+          "output": "0"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[7,1,5,3,6,4]",
+          "expected_output": "5",
+          "hidden": false
+        },
+        {
+          "input": "[7,6,4,3,1]",
+          "expected_output": "0",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Maximum Subarray",
+      "difficulty": "Medium",
+      "topic": "Array",
+      "description": "Find the contiguous subarray with the largest sum and return its sum.",
+      "function_name": "maxSubArray",
+      "starter_code": {
+        "java": "class Solution {\n    public int maxSubArray(int[] nums) {\n        // Write your code here\n        return 0;\n    }\n}",
+        "python": "class Solution:\n    def maxSubArray(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto maxSubArray(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[-2,1,-3,4,-1,2,1,-5,4]",
+          "output": "6"
+        },
+        {
+          "input": "[1]",
+          "output": "1"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[-2,1,-3,4,-1,2,1,-5,4]",
+          "expected_output": "6",
+          "hidden": false
+        },
+        {
+          "input": "[1]",
+          "expected_output": "1",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Contains Duplicate",
+      "difficulty": "Easy",
+      "topic": "Array",
+      "description": "Return true if any value appears at least twice in the array, otherwise return false.",
+      "function_name": "containsDuplicate",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the containsDuplicate function\n    public Object containsDuplicate(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def containsDuplicate(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto containsDuplicate(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3,1]",
+          "output": "true"
+        },
+        {
+          "input": "[1,2,3,4]",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3,1]",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "[1,2,3,4]",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Move Zeroes",
+      "difficulty": "Easy",
+      "topic": "Array",
+      "description": "Move all zeroes to the end while maintaining the relative order of non-zero elements.",
+      "function_name": "moveZeroes",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the moveZeroes function\n    public Object moveZeroes(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def moveZeroes(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto moveZeroes(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[0,1,0,3,12]",
+          "output": "[1,3,12,0,0]"
+        },
+        {
+          "input": "[0]",
+          "output": "[0]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[0,1,0,3,12]",
+          "expected_output": "[1,3,12,0,0]",
+          "hidden": false
+        },
+        {
+          "input": "[0]",
+          "expected_output": "[0]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Rotate Array",
+      "difficulty": "Medium",
+      "topic": "Array",
+      "description": "Rotate the array to the right by k steps.",
+      "function_name": "rotate",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the rotate function\n    public Object rotate(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def rotate(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto rotate(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3,4,5,6,7], 3",
+          "output": "[5,6,7,1,2,3,4]"
+        },
+        {
+          "input": "[-1,-100,3,99], 2",
+          "output": "[3,99,-1,-100]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3,4,5,6,7], 3",
+          "expected_output": "[5,6,7,1,2,3,4]",
+          "hidden": false
+        },
+        {
+          "input": "[-1,-100,3,99], 2",
+          "expected_output": "[3,99,-1,-100]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Product of Array Except Self",
+      "difficulty": "Medium",
+      "topic": "Array",
+      "description": "Return an array where each element is the product of all elements except itself, without using division.",
+      "function_name": "productExceptSelf",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the productExceptSelf function\n    public Object productExceptSelf(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def productExceptSelf(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto productExceptSelf(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3,4]",
+          "output": "[24,12,8,6]"
+        },
+        {
+          "input": "[-1,1,0,-3,3]",
+          "output": "[0,0,9,0,0]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3,4]",
+          "expected_output": "[24,12,8,6]",
+          "hidden": false
+        },
+        {
+          "input": "[-1,1,0,-3,3]",
+          "expected_output": "[0,0,9,0,0]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Majority Element",
+      "difficulty": "Easy",
+      "topic": "Array",
+      "description": "Return the element that appears more than n/2 times.",
+      "function_name": "majorityElement",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the majorityElement function\n    public Object majorityElement(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def majorityElement(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto majorityElement(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[3,2,3]",
+          "output": "3"
+        },
+        {
+          "input": "[2,2,1,1,1,2,2]",
+          "output": "2"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[3,2,3]",
+          "expected_output": "3",
+          "hidden": false
+        },
+        {
+          "input": "[2,2,1,1,1,2,2]",
+          "expected_output": "2",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Missing Number",
+      "difficulty": "Easy",
+      "topic": "Array",
+      "description": "Given n distinct numbers from 0 to n, return the missing number.",
+      "function_name": "missingNumber",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the missingNumber function\n    public Object missingNumber(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def missingNumber(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto missingNumber(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[3,0,1]",
+          "output": "2"
+        },
+        {
+          "input": "[0,1]",
+          "output": "2"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[3,0,1]",
+          "expected_output": "2",
+          "hidden": false
+        },
+        {
+          "input": "[0,1]",
+          "expected_output": "2",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Merge Sorted Array",
+      "difficulty": "Easy",
+      "topic": "Array",
+      "description": "Merge nums2 into nums1 as one sorted array.",
+      "function_name": "merge",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the merge function\n    public Object merge(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def merge(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto merge(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3,0,0,0],3,[2,5,6],3",
+          "output": "[1,2,2,3,5,6]"
+        },
+        {
+          "input": "[1],1,[],0",
+          "output": "[1]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3,0,0,0],3,[2,5,6],3",
+          "expected_output": "[1,2,2,3,5,6]",
+          "hidden": false
+        },
+        {
+          "input": "[1],1,[],0",
+          "expected_output": "[1]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Sort Colors",
+      "difficulty": "Medium",
+      "topic": "Array",
+      "description": "Sort an array containing 0, 1 and 2 in-place.",
+      "function_name": "sortColors",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the sortColors function\n    public Object sortColors(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def sortColors(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto sortColors(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[2,0,2,1,1,0]",
+          "output": "[0,0,1,1,2,2]"
+        },
+        {
+          "input": "[2,0,1]",
+          "output": "[0,1,2]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[2,0,2,1,1,0]",
+          "expected_output": "[0,0,1,1,2,2]",
+          "hidden": false
+        },
+        {
+          "input": "[2,0,1]",
+          "expected_output": "[0,1,2]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Find Pivot Index",
+      "difficulty": "Easy",
+      "topic": "Array",
+      "description": "Return the pivot index where the sum of elements on the left equals the sum on the right.",
+      "function_name": "pivotIndex",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the pivotIndex function\n    public Object pivotIndex(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def pivotIndex(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto pivotIndex(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,7,3,6,5,6]",
+          "output": "3"
+        },
+        {
+          "input": "[1,2,3]",
+          "output": "-1"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,7,3,6,5,6]",
+          "expected_output": "3",
+          "hidden": false
+        },
+        {
+          "input": "[1,2,3]",
+          "expected_output": "-1",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Maximum Product Subarray",
+      "difficulty": "Medium",
+      "topic": "Array",
+      "description": "Find the contiguous subarray with the largest product.",
+      "function_name": "maxProduct",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the maxProduct function\n    public Object maxProduct(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def maxProduct(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto maxProduct(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[2,3,-2,4]",
+          "output": "6"
+        },
+        {
+          "input": "[-2,0,-1]",
+          "output": "0"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[2,3,-2,4]",
+          "expected_output": "6",
+          "hidden": false
+        },
+        {
+          "input": "[-2,0,-1]",
+          "expected_output": "0",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Intersection of Two Arrays II",
+      "difficulty": "Easy",
+      "topic": "Array",
+      "description": "Return the intersection of two arrays including duplicate occurrences.",
+      "function_name": "intersect",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the intersect function\n    public Object intersect(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def intersect(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto intersect(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,2,1],[2,2]",
+          "output": "[2,2]"
+        },
+        {
+          "input": "[4,9,5],[9,4,9,8,4]",
+          "output": "[4,9]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,2,1],[2,2]",
+          "expected_output": "[2,2]",
+          "hidden": false
+        },
+        {
+          "input": "[4,9,5],[9,4,9,8,4]",
+          "expected_output": "[4,9]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Longest Consecutive Sequence",
+      "difficulty": "Medium",
+      "topic": "Array",
+      "description": "Return the length of the longest consecutive elements sequence.",
+      "function_name": "longestConsecutive",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the longestConsecutive function\n    public Object longestConsecutive(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def longestConsecutive(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto longestConsecutive(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[100,4,200,1,3,2]",
+          "output": "4"
+        },
+        {
+          "input": "[0,3,7,2,5,8,4,6,0,1]",
+          "output": "9"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[100,4,200,1,3,2]",
+          "expected_output": "4",
+          "hidden": false
+        },
+        {
+          "input": "[0,3,7,2,5,8,4,6,0,1]",
+          "expected_output": "9",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Valid Anagram",
+      "difficulty": "Easy",
+      "topic": "String",
+      "description": "Return true if t is an anagram of s.",
+      "function_name": "isAnagram",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the isAnagram function\n    public Object isAnagram(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def isAnagram(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto isAnagram(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "anagram,nagaram",
+          "output": "true"
+        },
+        {
+          "input": "rat,car",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "anagram,nagaram",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "rat,car",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Valid Palindrome",
+      "difficulty": "Easy",
+      "topic": "String",
+      "description": "Return true if a string is a palindrome after converting to lowercase and removing non-alphanumeric characters.",
+      "function_name": "isPalindrome",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the isPalindrome function\n    public Object isPalindrome(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def isPalindrome(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto isPalindrome(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "A man, a plan, a canal: Panama",
+          "output": "true"
+        },
+        {
+          "input": "race a car",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "A man, a plan, a canal: Panama",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "race a car",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Reverse String",
+      "difficulty": "Easy",
+      "topic": "String",
+      "description": "Reverse an array of characters in-place.",
+      "function_name": "reverseString",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the reverseString function\n    public Object reverseString(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def reverseString(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto reverseString(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "['h','e','l','l','o']",
+          "output": "['o','l','l','e','h']"
+        },
+        {
+          "input": "['H','a','n','n','a','h']",
+          "output": "['h','a','n','n','a','H']"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "['h','e','l','l','o']",
+          "expected_output": "['o','l','l','e','h']",
+          "hidden": false
+        },
+        {
+          "input": "['H','a','n','n','a','h']",
+          "expected_output": "['h','a','n','n','a','H']",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "First Unique Character",
+      "difficulty": "Easy",
+      "topic": "String",
+      "description": "Return the index of the first non-repeating character.",
+      "function_name": "firstUniqChar",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the firstUniqChar function\n    public Object firstUniqChar(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def firstUniqChar(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto firstUniqChar(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "leetcode",
+          "output": "0"
+        },
+        {
+          "input": "loveleetcode",
+          "output": "2"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "leetcode",
+          "expected_output": "0",
+          "hidden": false
+        },
+        {
+          "input": "loveleetcode",
+          "expected_output": "2",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Longest Common Prefix",
+      "difficulty": "Easy",
+      "topic": "String",
+      "description": "Find the longest common prefix among an array of strings.",
+      "function_name": "longestCommonPrefix",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the longestCommonPrefix function\n    public Object longestCommonPrefix(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def longestCommonPrefix(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto longestCommonPrefix(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "['flower','flow','flight']",
+          "output": "fl"
+        },
+        {
+          "input": "['dog','racecar','car']",
+          "output": ""
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "['flower','flow','flight']",
+          "expected_output": "fl",
+          "hidden": false
+        },
+        {
+          "input": "['dog','racecar','car']",
+          "expected_output": "",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Group Anagrams",
+      "difficulty": "Medium",
+      "topic": "String",
+      "description": "Group strings that are anagrams of each other.",
+      "function_name": "groupAnagrams",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the groupAnagrams function\n    public Object groupAnagrams(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def groupAnagrams(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto groupAnagrams(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "['eat','tea','tan','ate','nat','bat']",
+          "output": "[['eat','tea','ate'],['tan','nat'],['bat']]"
+        },
+        {
+          "input": "['']",
+          "output": "[['']]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "['eat','tea','tan','ate','nat','bat']",
+          "expected_output": "[['eat','tea','ate'],['tan','nat'],['bat']]",
+          "hidden": false
+        },
+        {
+          "input": "['']",
+          "expected_output": "[['']]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Longest Palindromic Substring",
+      "difficulty": "Medium",
+      "topic": "String",
+      "description": "Return the longest palindromic substring.",
+      "function_name": "longestPalindrome",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the longestPalindrome function\n    public Object longestPalindrome(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def longestPalindrome(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto longestPalindrome(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "babad",
+          "output": "bab"
+        },
+        {
+          "input": "cbbd",
+          "output": "bb"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "babad",
+          "expected_output": "bab",
+          "hidden": false
+        },
+        {
+          "input": "cbbd",
+          "expected_output": "bb",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "String to Integer",
+      "difficulty": "Medium",
+      "topic": "String",
+      "description": "Convert a string to a 32-bit signed integer.",
+      "function_name": "myAtoi",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the myAtoi function\n    public Object myAtoi(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def myAtoi(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto myAtoi(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "42",
+          "output": "42"
+        },
+        {
+          "input": "   -42",
+          "output": "-42"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "42",
+          "expected_output": "42",
+          "hidden": false
+        },
+        {
+          "input": "   -42",
+          "expected_output": "-42",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Count and Say",
+      "difficulty": "Medium",
+      "topic": "String",
+      "description": "Return the nth term of the count-and-say sequence.",
+      "function_name": "countAndSay",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the countAndSay function\n    public Object countAndSay(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def countAndSay(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto countAndSay(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "4",
+          "output": "1211"
+        },
+        {
+          "input": "1",
+          "output": "1"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "4",
+          "expected_output": "1211",
+          "hidden": false
+        },
+        {
+          "input": "1",
+          "expected_output": "1",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Valid Parentheses String",
+      "difficulty": "Easy",
+      "topic": "String",
+      "description": "Determine whether brackets in a string are correctly matched.",
+      "function_name": "isValid",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the isValid function\n    public Object isValid(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def isValid(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto isValid(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "()[]{}",
+          "output": "true"
+        },
+        {
+          "input": "(]",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "()[]{}",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "(]",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Two Sum II",
+      "difficulty": "Medium",
+      "topic": "Two Pointers",
+      "description": "Given a sorted array, return 1-based indices of two numbers adding to target.",
+      "function_name": "twoSum",
+      "starter_code": {
+        "java": "class Solution {\n    public int[] twoSum(int[] nums, int target) {\n        // Write your code here\n        return new int[]{};\n    }\n}",
+        "python": "class Solution:\n    def twoSum(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto twoSum(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[2,7,11,15],9",
+          "output": "[1,2]"
+        },
+        {
+          "input": "[2,3,4],6",
+          "output": "[1,3]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[2,7,11,15],9",
+          "expected_output": "[1,2]",
+          "hidden": false
+        },
+        {
+          "input": "[2,3,4],6",
+          "expected_output": "[1,3]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "3Sum",
+      "difficulty": "Medium",
+      "topic": "Two Pointers",
+      "description": "Return all unique triplets that sum to zero.",
+      "function_name": "threeSum",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the threeSum function\n    public Object threeSum(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def threeSum(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto threeSum(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[-1,0,1,2,-1,-4]",
+          "output": "[[-1,-1,2],[-1,0,1]]"
+        },
+        {
+          "input": "[0,1,1]",
+          "output": "[]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[-1,0,1,2,-1,-4]",
+          "expected_output": "[[-1,-1,2],[-1,0,1]]",
+          "hidden": false
+        },
+        {
+          "input": "[0,1,1]",
+          "expected_output": "[]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Container With Most Water",
+      "difficulty": "Medium",
+      "topic": "Two Pointers",
+      "description": "Find two lines that form a container holding the most water.",
+      "function_name": "maxArea",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the maxArea function\n    public Object maxArea(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def maxArea(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto maxArea(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,8,6,2,5,4,8,3,7]",
+          "output": "49"
+        },
+        {
+          "input": "[1,1]",
+          "output": "1"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,8,6,2,5,4,8,3,7]",
+          "expected_output": "49",
+          "hidden": false
+        },
+        {
+          "input": "[1,1]",
+          "expected_output": "1",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Remove Duplicates from Sorted Array",
+      "difficulty": "Easy",
+      "topic": "Two Pointers",
+      "description": "Remove duplicates in-place from a sorted array and return the new length.",
+      "function_name": "removeDuplicates",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the removeDuplicates function\n    public Object removeDuplicates(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def removeDuplicates(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto removeDuplicates(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,1,2]",
+          "output": "2"
+        },
+        {
+          "input": "[0,0,1,1,1,2,2,3,3,4]",
+          "output": "5"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,1,2]",
+          "expected_output": "2",
+          "hidden": false
+        },
+        {
+          "input": "[0,0,1,1,1,2,2,3,3,4]",
+          "expected_output": "5",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Remove Element",
+      "difficulty": "Easy",
+      "topic": "Two Pointers",
+      "description": "Remove all occurrences of val in-place and return the remaining length.",
+      "function_name": "removeElement",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the removeElement function\n    public Object removeElement(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def removeElement(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto removeElement(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[3,2,2,3],3",
+          "output": "2"
+        },
+        {
+          "input": "[0,1,2,2,3,0,4,2],2",
+          "output": "5"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[3,2,2,3],3",
+          "expected_output": "2",
+          "hidden": false
+        },
+        {
+          "input": "[0,1,2,2,3,0,4,2],2",
+          "expected_output": "5",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Squares of a Sorted Array",
+      "difficulty": "Easy",
+      "topic": "Two Pointers",
+      "description": "Return squares of a sorted array in sorted order.",
+      "function_name": "sortedSquares",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the sortedSquares function\n    public Object sortedSquares(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def sortedSquares(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto sortedSquares(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[-4,-1,0,3,10]",
+          "output": "[0,1,9,16,100]"
+        },
+        {
+          "input": "[-7,-3,2,3,11]",
+          "output": "[4,9,9,49,121]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[-4,-1,0,3,10]",
+          "expected_output": "[0,1,9,16,100]",
+          "hidden": false
+        },
+        {
+          "input": "[-7,-3,2,3,11]",
+          "expected_output": "[4,9,9,49,121]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Is Subsequence",
+      "difficulty": "Easy",
+      "topic": "Two Pointers",
+      "description": "Return true if s is a subsequence of t.",
+      "function_name": "isSubsequence",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the isSubsequence function\n    public Object isSubsequence(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def isSubsequence(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto isSubsequence(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "abc,ahbgdc",
+          "output": "true"
+        },
+        {
+          "input": "axc,ahbgdc",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "abc,ahbgdc",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "axc,ahbgdc",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Trapping Rain Water",
+      "difficulty": "Hard",
+      "topic": "Two Pointers",
+      "description": "Compute how much rain water can be trapped after raining.",
+      "function_name": "trap",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the trap function\n    public Object trap(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def trap(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto trap(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[0,1,0,2,1,0,1,3,2,1,2,1]",
+          "output": "6"
+        },
+        {
+          "input": "[4,2,0,3,2,5]",
+          "output": "9"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[0,1,0,2,1,0,1,3,2,1,2,1]",
+          "expected_output": "6",
+          "hidden": false
+        },
+        {
+          "input": "[4,2,0,3,2,5]",
+          "expected_output": "9",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Longest Substring Without Repeating Characters",
+      "difficulty": "Medium",
+      "topic": "Sliding Window",
+      "description": "Return the length of the longest substring without repeating characters.",
+      "function_name": "lengthOfLongestSubstring",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the lengthOfLongestSubstring function\n    public Object lengthOfLongestSubstring(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def lengthOfLongestSubstring(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto lengthOfLongestSubstring(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "abcabcbb",
+          "output": "3"
+        },
+        {
+          "input": "bbbbb",
+          "output": "1"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "abcabcbb",
+          "expected_output": "3",
+          "hidden": false
+        },
+        {
+          "input": "bbbbb",
+          "expected_output": "1",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Minimum Size Subarray Sum",
+      "difficulty": "Medium",
+      "topic": "Sliding Window",
+      "description": "Return the minimal length of a contiguous subarray whose sum is at least target.",
+      "function_name": "minSubArrayLen",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the minSubArrayLen function\n    public Object minSubArrayLen(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def minSubArrayLen(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto minSubArrayLen(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "7,[2,3,1,2,4,3]",
+          "output": "2"
+        },
+        {
+          "input": "4,[1,4,4]",
+          "output": "1"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "7,[2,3,1,2,4,3]",
+          "expected_output": "2",
+          "hidden": false
+        },
+        {
+          "input": "4,[1,4,4]",
+          "expected_output": "1",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Maximum Average Subarray I",
+      "difficulty": "Easy",
+      "topic": "Sliding Window",
+      "description": "Return the maximum average of any contiguous subarray of length k.",
+      "function_name": "findMaxAverage",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the findMaxAverage function\n    public Object findMaxAverage(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def findMaxAverage(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto findMaxAverage(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,12,-5,-6,50,3],4",
+          "output": "12.75"
+        },
+        {
+          "input": "[5],1",
+          "output": "5.0"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,12,-5,-6,50,3],4",
+          "expected_output": "12.75",
+          "hidden": false
+        },
+        {
+          "input": "[5],1",
+          "expected_output": "5.0",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Permutation in String",
+      "difficulty": "Medium",
+      "topic": "Sliding Window",
+      "description": "Return true if s2 contains a permutation of s1.",
+      "function_name": "checkInclusion",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the checkInclusion function\n    public Object checkInclusion(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def checkInclusion(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto checkInclusion(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "ab,eidbaooo",
+          "output": "true"
+        },
+        {
+          "input": "ab,eidboaoo",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "ab,eidbaooo",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "ab,eidboaoo",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Find All Anagrams",
+      "difficulty": "Medium",
+      "topic": "Sliding Window",
+      "description": "Return starting indices of p's anagrams in s.",
+      "function_name": "findAnagrams",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the findAnagrams function\n    public Object findAnagrams(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def findAnagrams(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto findAnagrams(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "cbaebabacd,abc",
+          "output": "[0,6]"
+        },
+        {
+          "input": "abab,ab",
+          "output": "[0,1,2]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "cbaebabacd,abc",
+          "expected_output": "[0,6]",
+          "hidden": false
+        },
+        {
+          "input": "abab,ab",
+          "expected_output": "[0,1,2]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Longest Repeating Character Replacement",
+      "difficulty": "Medium",
+      "topic": "Sliding Window",
+      "description": "Return the longest substring obtainable after replacing at most k characters.",
+      "function_name": "characterReplacement",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the characterReplacement function\n    public Object characterReplacement(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def characterReplacement(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto characterReplacement(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "ABAB,2",
+          "output": "4"
+        },
+        {
+          "input": "AABABBA,1",
+          "output": "4"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "ABAB,2",
+          "expected_output": "4",
+          "hidden": false
+        },
+        {
+          "input": "AABABBA,1",
+          "expected_output": "4",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Minimum Window Substring",
+      "difficulty": "Hard",
+      "topic": "Sliding Window",
+      "description": "Return the minimum substring of s containing all characters of t.",
+      "function_name": "minWindow",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the minWindow function\n    public Object minWindow(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def minWindow(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto minWindow(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "ADOBECODEBANC,ABC",
+          "output": "BANC"
+        },
+        {
+          "input": "a,a",
+          "output": "a"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "ADOBECODEBANC,ABC",
+          "expected_output": "BANC",
+          "hidden": false
+        },
+        {
+          "input": "a,a",
+          "expected_output": "a",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Reverse Linked List",
+      "difficulty": "Easy",
+      "topic": "Linked List",
+      "description": "Reverse a singly linked list.",
+      "function_name": "reverseList",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the reverseList function\n    public Object reverseList(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def reverseList(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto reverseList(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3,4,5]",
+          "output": "[5,4,3,2,1]"
+        },
+        {
+          "input": "[1,2]",
+          "output": "[2,1]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3,4,5]",
+          "expected_output": "[5,4,3,2,1]",
+          "hidden": false
+        },
+        {
+          "input": "[1,2]",
+          "expected_output": "[2,1]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Middle of Linked List",
+      "difficulty": "Easy",
+      "topic": "Linked List",
+      "description": "Return the middle node of a linked list.",
+      "function_name": "middleNode",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the middleNode function\n    public Object middleNode(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def middleNode(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto middleNode(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3,4,5]",
+          "output": "[3,4,5]"
+        },
+        {
+          "input": "[1,2,3,4,5,6]",
+          "output": "[4,5,6]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3,4,5]",
+          "expected_output": "[3,4,5]",
+          "hidden": false
+        },
+        {
+          "input": "[1,2,3,4,5,6]",
+          "expected_output": "[4,5,6]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Linked List Cycle",
+      "difficulty": "Easy",
+      "topic": "Linked List",
+      "description": "Determine whether a linked list has a cycle.",
+      "function_name": "hasCycle",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the hasCycle function\n    public Object hasCycle(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def hasCycle(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto hasCycle(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[3,2,0,-4],pos=1",
+          "output": "true"
+        },
+        {
+          "input": "[1,2],pos=-1",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[3,2,0,-4],pos=1",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "[1,2],pos=-1",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Merge Two Sorted Lists",
+      "difficulty": "Easy",
+      "topic": "Linked List",
+      "description": "Merge two sorted linked lists into one sorted list.",
+      "function_name": "mergeTwoLists",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the mergeTwoLists function\n    public Object mergeTwoLists(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def mergeTwoLists(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto mergeTwoLists(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,4],[1,3,4]",
+          "output": "[1,1,2,3,4,4]"
+        },
+        {
+          "input": "[],[]",
+          "output": "[]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,4],[1,3,4]",
+          "expected_output": "[1,1,2,3,4,4]",
+          "hidden": false
+        },
+        {
+          "input": "[],[]",
+          "expected_output": "[]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Remove Nth Node From End",
+      "difficulty": "Medium",
+      "topic": "Linked List",
+      "description": "Remove the nth node from the end of a linked list.",
+      "function_name": "removeNthFromEnd",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the removeNthFromEnd function\n    public Object removeNthFromEnd(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def removeNthFromEnd(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto removeNthFromEnd(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3,4,5],2",
+          "output": "[1,2,3,5]"
+        },
+        {
+          "input": "[1],1",
+          "output": "[]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3,4,5],2",
+          "expected_output": "[1,2,3,5]",
+          "hidden": false
+        },
+        {
+          "input": "[1],1",
+          "expected_output": "[]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Palindrome Linked List",
+      "difficulty": "Easy",
+      "topic": "Linked List",
+      "description": "Return true if a linked list is a palindrome.",
+      "function_name": "isPalindrome",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the isPalindrome function\n    public Object isPalindrome(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def isPalindrome(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto isPalindrome(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,2,1]",
+          "output": "true"
+        },
+        {
+          "input": "[1,2]",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,2,1]",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "[1,2]",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Intersection of Two Linked Lists",
+      "difficulty": "Easy",
+      "topic": "Linked List",
+      "description": "Return the node where two singly linked lists intersect.",
+      "function_name": "getIntersectionNode",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the getIntersectionNode function\n    public Object getIntersectionNode(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def getIntersectionNode(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto getIntersectionNode(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "A=[4,1,8,4,5],B=[5,6,1,8,4,5],skipA=2,skipB=3",
+          "output": "8"
+        },
+        {
+          "input": "A=[1,9,1,2,4],B=[3,2,4],skipA=3,skipB=1",
+          "output": "2"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "A=[4,1,8,4,5],B=[5,6,1,8,4,5],skipA=2,skipB=3",
+          "expected_output": "8",
+          "hidden": false
+        },
+        {
+          "input": "A=[1,9,1,2,4],B=[3,2,4],skipA=3,skipB=1",
+          "expected_output": "2",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Add Two Numbers",
+      "difficulty": "Medium",
+      "topic": "Linked List",
+      "description": "Add two numbers represented by linked lists.",
+      "function_name": "addTwoNumbers",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the addTwoNumbers function\n    public Object addTwoNumbers(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def addTwoNumbers(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto addTwoNumbers(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[2,4,3],[5,6,4]",
+          "output": "[7,0,8]"
+        },
+        {
+          "input": "[0],[0]",
+          "output": "[0]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[2,4,3],[5,6,4]",
+          "expected_output": "[7,0,8]",
+          "hidden": false
+        },
+        {
+          "input": "[0],[0]",
+          "expected_output": "[0]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Swap Nodes in Pairs",
+      "difficulty": "Medium",
+      "topic": "Linked List",
+      "description": "Swap every two adjacent nodes.",
+      "function_name": "swapPairs",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the swapPairs function\n    public Object swapPairs(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def swapPairs(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto swapPairs(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3,4]",
+          "output": "[2,1,4,3]"
+        },
+        {
+          "input": "[]",
+          "output": "[]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3,4]",
+          "expected_output": "[2,1,4,3]",
+          "hidden": false
+        },
+        {
+          "input": "[]",
+          "expected_output": "[]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Reorder List",
+      "difficulty": "Medium",
+      "topic": "Linked List",
+      "description": "Reorder a list as L0→Ln→L1→Ln-1 and so on.",
+      "function_name": "reorderList",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the reorderList function\n    public Object reorderList(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def reorderList(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto reorderList(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3,4]",
+          "output": "[1,4,2,3]"
+        },
+        {
+          "input": "[1,2,3,4,5]",
+          "output": "[1,5,2,4,3]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3,4]",
+          "expected_output": "[1,4,2,3]",
+          "hidden": false
+        },
+        {
+          "input": "[1,2,3,4,5]",
+          "expected_output": "[1,5,2,4,3]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Valid Parentheses",
+      "difficulty": "Easy",
+      "topic": "Stack",
+      "description": "Determine if the input string has valid matching brackets.",
+      "function_name": "isValid",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the isValid function\n    public Object isValid(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def isValid(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto isValid(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "()",
+          "output": "true"
+        },
+        {
+          "input": "([)]",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "()",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "([)]",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Min Stack",
+      "difficulty": "Medium",
+      "topic": "Stack",
+      "description": "Design a stack supporting push, pop, top and retrieving minimum in constant time.",
+      "function_name": "MinStack",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the MinStack function\n    public Object MinStack(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def MinStack(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto MinStack(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "push(-2),push(0),push(-3),getMin(),pop(),top(),getMin()",
+          "output": "[-3,0,-2]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "push(-2),push(0),push(-3),getMin(),pop(),top(),getMin()",
+          "expected_output": "[-3,0,-2]",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Evaluate Reverse Polish Notation",
+      "difficulty": "Medium",
+      "topic": "Stack",
+      "description": "Evaluate an arithmetic expression in Reverse Polish Notation.",
+      "function_name": "evalRPN",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the evalRPN function\n    public Object evalRPN(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def evalRPN(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto evalRPN(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "['2','1','+','3','*']",
+          "output": "9"
+        },
+        {
+          "input": "['4','13','5','/','+']",
+          "output": "6"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "['2','1','+','3','*']",
+          "expected_output": "9",
+          "hidden": false
+        },
+        {
+          "input": "['4','13','5','/','+']",
+          "expected_output": "6",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Daily Temperatures",
+      "difficulty": "Medium",
+      "topic": "Stack",
+      "description": "Return how many days until a warmer temperature for each day.",
+      "function_name": "dailyTemperatures",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the dailyTemperatures function\n    public Object dailyTemperatures(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def dailyTemperatures(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto dailyTemperatures(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[73,74,75,71,69,72,76,73]",
+          "output": "[1,1,4,2,1,1,0,0]"
+        },
+        {
+          "input": "[30,40,50,60]",
+          "output": "[1,1,1,0]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[73,74,75,71,69,72,76,73]",
+          "expected_output": "[1,1,4,2,1,1,0,0]",
+          "hidden": false
+        },
+        {
+          "input": "[30,40,50,60]",
+          "expected_output": "[1,1,1,0]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Next Greater Element I",
+      "difficulty": "Easy",
+      "topic": "Stack",
+      "description": "Return the next greater element for each value in nums1 using nums2.",
+      "function_name": "nextGreaterElement",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the nextGreaterElement function\n    public Object nextGreaterElement(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def nextGreaterElement(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto nextGreaterElement(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[4,1,2],[1,3,4,2]",
+          "output": "[-1,3]"
+        },
+        {
+          "input": "[2,4],[1,2,3,4]",
+          "output": "[3,-1]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[4,1,2],[1,3,4,2]",
+          "expected_output": "[-1,3]",
+          "hidden": false
+        },
+        {
+          "input": "[2,4],[1,2,3,4]",
+          "expected_output": "[3,-1]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Largest Rectangle in Histogram",
+      "difficulty": "Hard",
+      "topic": "Stack",
+      "description": "Find the largest rectangle area in a histogram.",
+      "function_name": "largestRectangleArea",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the largestRectangleArea function\n    public Object largestRectangleArea(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def largestRectangleArea(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto largestRectangleArea(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[2,1,5,6,2,3]",
+          "output": "10"
+        },
+        {
+          "input": "[2,4]",
+          "output": "4"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[2,1,5,6,2,3]",
+          "expected_output": "10",
+          "hidden": false
+        },
+        {
+          "input": "[2,4]",
+          "expected_output": "4",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Decode String",
+      "difficulty": "Medium",
+      "topic": "Stack",
+      "description": "Decode strings encoded as k[encoded_string].",
+      "function_name": "decodeString",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the decodeString function\n    public Object decodeString(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def decodeString(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto decodeString(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "3[a]2[bc]",
+          "output": "aaabcbc"
+        },
+        {
+          "input": "3[a2[c]]",
+          "output": "accaccacc"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "3[a]2[bc]",
+          "expected_output": "aaabcbc",
+          "hidden": false
+        },
+        {
+          "input": "3[a2[c]]",
+          "expected_output": "accaccacc",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Implement Queue using Stacks",
+      "difficulty": "Easy",
+      "topic": "Queue",
+      "description": "Implement a FIFO queue using two stacks.",
+      "function_name": "MyQueue",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the MyQueue function\n    public Object MyQueue(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def MyQueue(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto MyQueue(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "push(1),push(2),peek(),pop(),empty()",
+          "output": "[1,1,false]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "push(1),push(2),peek(),pop(),empty()",
+          "expected_output": "[1,1,false]",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Number of Recent Calls",
+      "difficulty": "Easy",
+      "topic": "Queue",
+      "description": "Count requests made within the last 3000 milliseconds.",
+      "function_name": "RecentCounter",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the RecentCounter function\n    public Object RecentCounter(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def RecentCounter(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto RecentCounter(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "ping(1),ping(100),ping(3001),ping(3002)",
+          "output": "[1,2,3,3]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "ping(1),ping(100),ping(3001),ping(3002)",
+          "expected_output": "[1,2,3,3]",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Design Circular Queue",
+      "difficulty": "Medium",
+      "topic": "Queue",
+      "description": "Design a circular queue with fixed capacity.",
+      "function_name": "MyCircularQueue",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the MyCircularQueue function\n    public Object MyCircularQueue(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def MyCircularQueue(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto MyCircularQueue(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "enQueue(1),enQueue(2),enQueue(3),enQueue(4),Rear(),isFull()",
+          "output": "[true,true,true,false,3,true]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "enQueue(1),enQueue(2),enQueue(3),enQueue(4),Rear(),isFull()",
+          "expected_output": "[true,true,true,false,3,true]",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Sliding Window Maximum",
+      "difficulty": "Hard",
+      "topic": "Queue",
+      "description": "Return the maximum value in every sliding window of size k.",
+      "function_name": "maxSlidingWindow",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the maxSlidingWindow function\n    public Object maxSlidingWindow(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def maxSlidingWindow(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto maxSlidingWindow(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,3,-1,-3,5,3,6,7],3",
+          "output": "[3,3,5,5,6,7]"
+        },
+        {
+          "input": "[1],1",
+          "output": "[1]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,3,-1,-3,5,3,6,7],3",
+          "expected_output": "[3,3,5,5,6,7]",
+          "hidden": false
+        },
+        {
+          "input": "[1],1",
+          "expected_output": "[1]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Time Needed to Buy Tickets",
+      "difficulty": "Easy",
+      "topic": "Queue",
+      "description": "Return total time until the person at index k finishes buying tickets.",
+      "function_name": "timeRequiredToBuy",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the timeRequiredToBuy function\n    public Object timeRequiredToBuy(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def timeRequiredToBuy(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto timeRequiredToBuy(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[2,3,2],2",
+          "output": "6"
+        },
+        {
+          "input": "[5,1,1,1],0",
+          "output": "8"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[2,3,2],2",
+          "expected_output": "6",
+          "hidden": false
+        },
+        {
+          "input": "[5,1,1,1],0",
+          "expected_output": "8",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Binary Search",
+      "difficulty": "Easy",
+      "topic": "Binary Search",
+      "description": "Return the index of target in a sorted array, or -1.",
+      "function_name": "search",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the search function\n    public Object search(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def search(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto search(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[-1,0,3,5,9,12],9",
+          "output": "4"
+        },
+        {
+          "input": "[-1,0,3,5,9,12],2",
+          "output": "-1"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[-1,0,3,5,9,12],9",
+          "expected_output": "4",
+          "hidden": false
+        },
+        {
+          "input": "[-1,0,3,5,9,12],2",
+          "expected_output": "-1",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Search Insert Position",
+      "difficulty": "Easy",
+      "topic": "Binary Search",
+      "description": "Return the index where target is found or should be inserted.",
+      "function_name": "searchInsert",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the searchInsert function\n    public Object searchInsert(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def searchInsert(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto searchInsert(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,3,5,6],5",
+          "output": "2"
+        },
+        {
+          "input": "[1,3,5,6],2",
+          "output": "1"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,3,5,6],5",
+          "expected_output": "2",
+          "hidden": false
+        },
+        {
+          "input": "[1,3,5,6],2",
+          "expected_output": "1",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "title": "First Bad Version",
+      "difficulty": "Easy",
+      "topic": "Binary Search",
+      "description": "Find the first bad version using the provided isBadVersion API.",
+      "function_name": "firstBadVersion",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the firstBadVersion function\n    public Object firstBadVersion(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def firstBadVersion(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto firstBadVersion(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "n=5,bad=4",
+          "output": "4"
+        },
+        {
+          "input": "n=1,bad=1",
+          "output": "1"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "n=5,bad=4",
+          "expected_output": "4",
+          "hidden": false
+        },
+        {
+          "input": "n=1,bad=1",
+          "expected_output": "1",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Find Minimum in Rotated Sorted Array",
+      "difficulty": "Medium",
+      "topic": "Binary Search",
+      "description": "Return the minimum element in a rotated sorted array.",
+      "function_name": "findMin",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the findMin function\n    public Object findMin(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def findMin(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto findMin(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[3,4,5,1,2]",
+          "output": "1"
+        },
+        {
+          "input": "[4,5,6,7,0,1,2]",
+          "output": "0"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[3,4,5,1,2]",
+          "expected_output": "1",
+          "hidden": false
+        },
+        {
+          "input": "[4,5,6,7,0,1,2]",
+          "expected_output": "0",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Search in Rotated Sorted Array",
+      "difficulty": "Medium",
+      "topic": "Binary Search",
+      "description": "Return target index in a rotated sorted array.",
+      "function_name": "search",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the search function\n    public Object search(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def search(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto search(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[4,5,6,7,0,1,2],0",
+          "output": "4"
+        },
+        {
+          "input": "[4,5,6,7,0,1,2],3",
+          "output": "-1"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[4,5,6,7,0,1,2],0",
+          "expected_output": "4",
+          "hidden": false
+        },
+        {
+          "input": "[4,5,6,7,0,1,2],3",
+          "expected_output": "-1",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Sqrt X",
+      "difficulty": "Easy",
+      "topic": "Binary Search",
+      "description": "Return the integer square root of x.",
+      "function_name": "mySqrt",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the mySqrt function\n    public Object mySqrt(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def mySqrt(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto mySqrt(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "4",
+          "output": "2"
+        },
+        {
+          "input": "8",
+          "output": "2"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "4",
+          "expected_output": "2",
+          "hidden": false
+        },
+        {
+          "input": "8",
+          "expected_output": "2",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Koko Eating Bananas",
+      "difficulty": "Medium",
+      "topic": "Binary Search",
+      "description": "Find minimum eating speed to finish all banana piles within h hours.",
+      "function_name": "minEatingSpeed",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the minEatingSpeed function\n    public Object minEatingSpeed(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def minEatingSpeed(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto minEatingSpeed(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[3,6,7,11],8",
+          "output": "4"
+        },
+        {
+          "input": "[30,11,23,4,20],5",
+          "output": "30"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[3,6,7,11],8",
+          "expected_output": "4",
+          "hidden": false
+        },
+        {
+          "input": "[30,11,23,4,20],5",
+          "expected_output": "30",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Capacity To Ship Packages",
+      "difficulty": "Medium",
+      "topic": "Binary Search",
+      "description": "Find minimum ship capacity needed to ship packages within days.",
+      "function_name": "shipWithinDays",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the shipWithinDays function\n    public Object shipWithinDays(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def shipWithinDays(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto shipWithinDays(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3,4,5,6,7,8,9,10],5",
+          "output": "15"
+        },
+        {
+          "input": "[3,2,2,4,1,4],3",
+          "output": "6"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3,4,5,6,7,8,9,10],5",
+          "expected_output": "15",
+          "hidden": false
+        },
+        {
+          "input": "[3,2,2,4,1,4],3",
+          "expected_output": "6",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Maximum Depth of Binary Tree",
+      "difficulty": "Easy",
+      "topic": "Tree",
+      "description": "Return the maximum depth of a binary tree.",
+      "function_name": "maxDepth",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the maxDepth function\n    public Object maxDepth(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def maxDepth(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto maxDepth(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[3,9,20,null,null,15,7]",
+          "output": "3"
+        },
+        {
+          "input": "[1,null,2]",
+          "output": "2"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[3,9,20,null,null,15,7]",
+          "expected_output": "3",
+          "hidden": false
+        },
+        {
+          "input": "[1,null,2]",
+          "expected_output": "2",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Same Tree",
+      "difficulty": "Easy",
+      "topic": "Tree",
+      "description": "Determine whether two binary trees are identical.",
+      "function_name": "isSameTree",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the isSameTree function\n    public Object isSameTree(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def isSameTree(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto isSameTree(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3],[1,2,3]",
+          "output": "true"
+        },
+        {
+          "input": "[1,2],[1,null,2]",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3],[1,2,3]",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "[1,2],[1,null,2]",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Invert Binary Tree",
+      "difficulty": "Easy",
+      "topic": "Tree",
+      "description": "Invert a binary tree.",
+      "function_name": "invertTree",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the invertTree function\n    public Object invertTree(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def invertTree(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto invertTree(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[4,2,7,1,3,6,9]",
+          "output": "[4,7,2,9,6,3,1]"
+        },
+        {
+          "input": "[2,1,3]",
+          "output": "[2,3,1]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[4,2,7,1,3,6,9]",
+          "expected_output": "[4,7,2,9,6,3,1]",
+          "hidden": false
+        },
+        {
+          "input": "[2,1,3]",
+          "expected_output": "[2,3,1]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Binary Tree Level Order Traversal",
+      "difficulty": "Medium",
+      "topic": "Tree",
+      "description": "Return the level-order traversal of a binary tree.",
+      "function_name": "levelOrder",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the levelOrder function\n    public Object levelOrder(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def levelOrder(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto levelOrder(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[3,9,20,null,null,15,7]",
+          "output": "[[3],[9,20],[15,7]]"
+        },
+        {
+          "input": "[1]",
+          "output": "[[1]]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[3,9,20,null,null,15,7]",
+          "expected_output": "[[3],[9,20],[15,7]]",
+          "hidden": false
+        },
+        {
+          "input": "[1]",
+          "expected_output": "[[1]]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Binary Tree Right Side View",
+      "difficulty": "Medium",
+      "topic": "Tree",
+      "description": "Return the values visible from the right side of a binary tree.",
+      "function_name": "rightSideView",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the rightSideView function\n    public Object rightSideView(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def rightSideView(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto rightSideView(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3,null,5,null,4]",
+          "output": "[1,3,4]"
+        },
+        {
+          "input": "[1,null,3]",
+          "output": "[1,3]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3,null,5,null,4]",
+          "expected_output": "[1,3,4]",
+          "hidden": false
+        },
+        {
+          "input": "[1,null,3]",
+          "expected_output": "[1,3]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Binary Tree Zigzag Level Order",
+      "difficulty": "Medium",
+      "topic": "Tree",
+      "description": "Return level-order traversal alternating left-to-right and right-to-left.",
+      "function_name": "zigzagLevelOrder",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the zigzagLevelOrder function\n    public Object zigzagLevelOrder(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def zigzagLevelOrder(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto zigzagLevelOrder(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[3,9,20,null,null,15,7]",
+          "output": "[[3],[20,9],[15,7]]"
+        },
+        {
+          "input": "[1]",
+          "output": "[[1]]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[3,9,20,null,null,15,7]",
+          "expected_output": "[[3],[20,9],[15,7]]",
+          "hidden": false
+        },
+        {
+          "input": "[1]",
+          "expected_output": "[[1]]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Minimum Depth of Binary Tree",
+      "difficulty": "Easy",
+      "topic": "Tree",
+      "description": "Return the minimum depth from root to a leaf.",
+      "function_name": "minDepth",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the minDepth function\n    public Object minDepth(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def minDepth(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto minDepth(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[3,9,20,null,null,15,7]",
+          "output": "2"
+        },
+        {
+          "input": "[2,null,3,null,4,null,5,null,6]",
+          "output": "5"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[3,9,20,null,null,15,7]",
+          "expected_output": "2",
+          "hidden": false
+        },
+        {
+          "input": "[2,null,3,null,4,null,5,null,6]",
+          "expected_output": "5",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Maximum Width of Binary Tree",
+      "difficulty": "Medium",
+      "topic": "Tree",
+      "description": "Return the maximum width of a binary tree.",
+      "function_name": "widthOfBinaryTree",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the widthOfBinaryTree function\n    public Object widthOfBinaryTree(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def widthOfBinaryTree(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto widthOfBinaryTree(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,3,2,5,3,null,9]",
+          "output": "4"
+        },
+        {
+          "input": "[1,3,null,5,3]",
+          "output": "2"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,3,2,5,3,null,9]",
+          "expected_output": "4",
+          "hidden": false
+        },
+        {
+          "input": "[1,3,null,5,3]",
+          "expected_output": "2",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Path Sum",
+      "difficulty": "Easy",
+      "topic": "Tree",
+      "description": "Return true if a root-to-leaf path has a given sum.",
+      "function_name": "hasPathSum",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the hasPathSum function\n    public Object hasPathSum(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def hasPathSum(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto hasPathSum(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[5,4,8,11,null,13,4,7,2,null,null,null,1],22",
+          "output": "true"
+        },
+        {
+          "input": "[1,2,3],5",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[5,4,8,11,null,13,4,7,2,null,null,null,1],22",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "[1,2,3],5",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Diameter of Binary Tree",
+      "difficulty": "Easy",
+      "topic": "Tree",
+      "description": "Return the diameter of a binary tree measured in edges.",
+      "function_name": "diameterOfBinaryTree",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the diameterOfBinaryTree function\n    public Object diameterOfBinaryTree(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def diameterOfBinaryTree(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto diameterOfBinaryTree(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3,4,5]",
+          "output": "3"
+        },
+        {
+          "input": "[1,2]",
+          "output": "1"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3,4,5]",
+          "expected_output": "3",
+          "hidden": false
+        },
+        {
+          "input": "[1,2]",
+          "expected_output": "1",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Search in a Binary Search Tree",
+      "difficulty": "Easy",
+      "topic": "BST",
+      "description": "Return the subtree rooted at the node whose value equals val.",
+      "function_name": "searchBST",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the searchBST function\n    public Object searchBST(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def searchBST(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto searchBST(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[4,2,7,1,3],2",
+          "output": "[2,1,3]"
+        },
+        {
+          "input": "[4,2,7,1,3],5",
+          "output": "[]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[4,2,7,1,3],2",
+          "expected_output": "[2,1,3]",
+          "hidden": false
+        },
+        {
+          "input": "[4,2,7,1,3],5",
+          "expected_output": "[]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Validate Binary Search Tree",
+      "difficulty": "Medium",
+      "topic": "BST",
+      "description": "Determine whether a binary tree is a valid binary search tree.",
+      "function_name": "isValidBST",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the isValidBST function\n    public Object isValidBST(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def isValidBST(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto isValidBST(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[2,1,3]",
+          "output": "true"
+        },
+        {
+          "input": "[5,1,4,null,null,3,6]",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[2,1,3]",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "[5,1,4,null,null,3,6]",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Lowest Common Ancestor of BST",
+      "difficulty": "Medium",
+      "topic": "BST",
+      "description": "Find the lowest common ancestor of two nodes in a BST.",
+      "function_name": "lowestCommonAncestor",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the lowestCommonAncestor function\n    public Object lowestCommonAncestor(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def lowestCommonAncestor(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto lowestCommonAncestor(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[6,2,8,0,4,7,9,null,null,3,5],p=2,q=8",
+          "output": "6"
+        },
+        {
+          "input": "[6,2,8,0,4,7,9,null,null,3,5],p=2,q=4",
+          "output": "2"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[6,2,8,0,4,7,9,null,null,3,5],p=2,q=8",
+          "expected_output": "6",
+          "hidden": false
+        },
+        {
+          "input": "[6,2,8,0,4,7,9,null,null,3,5],p=2,q=4",
+          "expected_output": "2",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Kth Smallest Element in BST",
+      "difficulty": "Medium",
+      "topic": "BST",
+      "description": "Return the kth smallest value in a BST.",
+      "function_name": "kthSmallest",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the kthSmallest function\n    public Object kthSmallest(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def kthSmallest(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto kthSmallest(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[3,1,4,null,2],1",
+          "output": "1"
+        },
+        {
+          "input": "[5,3,6,2,4,null,null,1],3",
+          "output": "3"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[3,1,4,null,2],1",
+          "expected_output": "1",
+          "hidden": false
+        },
+        {
+          "input": "[5,3,6,2,4,null,null,1],3",
+          "expected_output": "3",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Convert Sorted Array to BST",
+      "difficulty": "Easy",
+      "topic": "BST",
+      "description": "Convert a sorted array into a height-balanced BST.",
+      "function_name": "sortedArrayToBST",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the sortedArrayToBST function\n    public Object sortedArrayToBST(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def sortedArrayToBST(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto sortedArrayToBST(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[-10,-3,0,5,9]",
+          "output": "[0,-3,9,-10,null,5]"
+        },
+        {
+          "input": "[1,3]",
+          "output": "[3,1]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[-10,-3,0,5,9]",
+          "expected_output": "[0,-3,9,-10,null,5]",
+          "hidden": false
+        },
+        {
+          "input": "[1,3]",
+          "expected_output": "[3,1]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Kth Largest Element",
+      "difficulty": "Medium",
+      "topic": "Heap",
+      "description": "Return the kth largest element in an array.",
+      "function_name": "findKthLargest",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the findKthLargest function\n    public Object findKthLargest(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def findKthLargest(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto findKthLargest(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[3,2,1,5,6,4],2",
+          "output": "5"
+        },
+        {
+          "input": "[3,2,3,1,2,4,5,5,6],4",
+          "output": "4"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[3,2,1,5,6,4],2",
+          "expected_output": "5",
+          "hidden": false
+        },
+        {
+          "input": "[3,2,3,1,2,4,5,5,6],4",
+          "expected_output": "4",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Top K Frequent Elements",
+      "difficulty": "Medium",
+      "topic": "Heap",
+      "description": "Return the k most frequent elements.",
+      "function_name": "topKFrequent",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the topKFrequent function\n    public Object topKFrequent(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def topKFrequent(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto topKFrequent(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,1,1,2,2,3],2",
+          "output": "[1,2]"
+        },
+        {
+          "input": "[1],1",
+          "output": "[1]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,1,1,2,2,3],2",
+          "expected_output": "[1,2]",
+          "hidden": false
+        },
+        {
+          "input": "[1],1",
+          "expected_output": "[1]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Last Stone Weight",
+      "difficulty": "Easy",
+      "topic": "Heap",
+      "description": "Repeatedly smash the two heaviest stones and return the remaining weight.",
+      "function_name": "lastStoneWeight",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the lastStoneWeight function\n    public Object lastStoneWeight(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def lastStoneWeight(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto lastStoneWeight(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[2,7,4,1,8,1]",
+          "output": "1"
+        },
+        {
+          "input": "[2,2]",
+          "output": "0"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[2,7,4,1,8,1]",
+          "expected_output": "1",
+          "hidden": false
+        },
+        {
+          "input": "[2,2]",
+          "expected_output": "0",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "title": "K Closest Points to Origin",
+      "difficulty": "Medium",
+      "topic": "Heap",
+      "description": "Return k points closest to the origin.",
+      "function_name": "kClosest",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the kClosest function\n    public Object kClosest(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def kClosest(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto kClosest(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[[1,3],[-2,2]],1",
+          "output": "[[-2,2]]"
+        },
+        {
+          "input": "[[3,3],[5,-1],[-2,4]],2",
+          "output": "[[3,3],[-2,4]]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[[1,3],[-2,2]],1",
+          "expected_output": "[[-2,2]]",
+          "hidden": false
+        },
+        {
+          "input": "[[3,3],[5,-1],[-2,4]],2",
+          "expected_output": "[[3,3],[-2,4]]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Merge K Sorted Lists",
+      "difficulty": "Hard",
+      "topic": "Heap",
+      "description": "Merge k sorted linked lists into one sorted linked list.",
+      "function_name": "mergeKLists",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the mergeKLists function\n    public Object mergeKLists(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def mergeKLists(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto mergeKLists(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[[1,4,5],[1,3,4],[2,6]]",
+          "output": "[1,1,2,3,4,4,5,6]"
+        },
+        {
+          "input": "[]",
+          "output": "[]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[[1,4,5],[1,3,4],[2,6]]",
+          "expected_output": "[1,1,2,3,4,4,5,6]",
+          "hidden": false
+        },
+        {
+          "input": "[]",
+          "expected_output": "[]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Happy Number",
+      "difficulty": "Easy",
+      "topic": "HashMap",
+      "description": "Determine whether repeatedly summing squared digits reaches 1.",
+      "function_name": "isHappy",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the isHappy function\n    public Object isHappy(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def isHappy(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto isHappy(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "19",
+          "output": "true"
+        },
+        {
+          "input": "2",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "19",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "2",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Isomorphic Strings",
+      "difficulty": "Easy",
+      "topic": "HashMap",
+      "description": "Determine whether two strings are isomorphic.",
+      "function_name": "isIsomorphic",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the isIsomorphic function\n    public Object isIsomorphic(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def isIsomorphic(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto isIsomorphic(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "egg,add",
+          "output": "true"
+        },
+        {
+          "input": "foo,bar",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "egg,add",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "foo,bar",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Word Pattern",
+      "difficulty": "Easy",
+      "topic": "HashMap",
+      "description": "Determine whether a string follows the same pattern of word mapping.",
+      "function_name": "wordPattern",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the wordPattern function\n    public Object wordPattern(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def wordPattern(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto wordPattern(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "abba,dog cat cat dog",
+          "output": "true"
+        },
+        {
+          "input": "abba,dog cat cat fish",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "abba,dog cat cat dog",
+          "expected_output": "true",
+          "hidden": false
+        },
+        {
+          "input": "abba,dog cat cat fish",
+          "expected_output": "false",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Longest Consecutive Sequence Hashing",
+      "difficulty": "Medium",
+      "topic": "HashSet",
+      "description": "Return the longest consecutive sequence using efficient set lookup.",
+      "function_name": "longestConsecutive",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the longestConsecutive function\n    public Object longestConsecutive(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def longestConsecutive(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto longestConsecutive(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[100,4,200,1,3,2]",
+          "output": "4"
+        },
+        {
+          "input": "[1,0,1,2]",
+          "output": "3"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[100,4,200,1,3,2]",
+          "expected_output": "4",
+          "hidden": false
+        },
+        {
+          "input": "[1,0,1,2]",
+          "expected_output": "3",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "title": "4Sum II",
+      "difficulty": "Medium",
+      "topic": "HashMap",
+      "description": "Count tuples i,j,k,l such that nums1[i]+nums2[j]+nums3[k]+nums4[l] equals zero.",
+      "function_name": "fourSumCount",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the fourSumCount function\n    public Object fourSumCount(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def fourSumCount(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto fourSumCount(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2],[-2,-1],[-1,2],[0,2]",
+          "output": "2"
+        },
+        {
+          "input": "[0],[0],[0],[0]",
+          "output": "1"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2],[-2,-1],[-1,2],[0,2]",
+          "expected_output": "2",
+          "hidden": false
+        },
+        {
+          "input": "[0],[0],[0],[0]",
+          "expected_output": "1",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Subsets",
+      "difficulty": "Medium",
+      "topic": "Backtracking",
+      "description": "Return all possible subsets of an integer array.",
+      "function_name": "subsets",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the subsets function\n    public Object subsets(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def subsets(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto subsets(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3]",
+          "output": "[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]"
+        },
+        {
+          "input": "[0]",
+          "output": "[[],[0]]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3]",
+          "expected_output": "[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]",
+          "hidden": false
+        },
+        {
+          "input": "[0]",
+          "expected_output": "[[],[0]]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Permutations",
+      "difficulty": "Medium",
+      "topic": "Backtracking",
+      "description": "Return all possible permutations of distinct integers.",
+      "function_name": "permute",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the permute function\n    public Object permute(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def permute(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto permute(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[1,2,3]",
+          "output": "[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]"
+        },
+        {
+          "input": "[0,1]",
+          "output": "[[0,1],[1,0]]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[1,2,3]",
+          "expected_output": "[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]",
+          "hidden": false
+        },
+        {
+          "input": "[0,1]",
+          "expected_output": "[[0,1],[1,0]]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Combination Sum",
+      "difficulty": "Medium",
+      "topic": "Backtracking",
+      "description": "Return combinations of candidates that sum to target; values may be reused.",
+      "function_name": "combinationSum",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the combinationSum function\n    public Object combinationSum(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def combinationSum(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto combinationSum(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "[2,3,6,7],7",
+          "output": "[[2,2,3],[7]]"
+        },
+        {
+          "input": "[2,3,5],8",
+          "output": "[[2,2,2,2],[2,3,3],[3,5]]"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "[2,3,6,7],7",
+          "expected_output": "[[2,2,3],[7]]",
+          "hidden": false
+        },
+        {
+          "input": "[2,3,5],8",
+          "expected_output": "[[2,2,2,2],[2,3,3],[3,5]]",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Letter Combinations of Phone Number",
+      "difficulty": "Medium",
+      "topic": "Backtracking",
+      "description": "Return all possible letter combinations represented by a phone digit string.",
+      "function_name": "letterCombinations",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the letterCombinations function\n    public Object letterCombinations(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def letterCombinations(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto letterCombinations(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "23",
+          "output": "['ad','ae','af','bd','be','bf','cd','ce','cf']"
+        },
+        {
+          "input": "2",
+          "output": "['a','b','c']"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "23",
+          "expected_output": "['ad','ae','af','bd','be','bf','cd','ce','cf']",
+          "hidden": false
+        },
+        {
+          "input": "2",
+          "expected_output": "['a','b','c']",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Generate Parentheses",
+      "difficulty": "Medium",
+      "topic": "Backtracking",
+      "description": "Generate all valid combinations of n pairs of parentheses.",
+      "function_name": "generateParenthesis",
+      "starter_code": {
+        "java": "class Solution {\n    // Complete the generateParenthesis function\n    public Object generateParenthesis(Object input) {\n        // Write your code here\n        return null;\n    }\n}",
+        "python": "class Solution:\n    def generateParenthesis(self, *args):\n        # Write your code here\n        pass",
+        "cpp": "class Solution {\npublic:\n    auto generateParenthesis(/* parameters */) {\n        // Write your code here\n    }\n};"
+      },
+      "examples": [
+        {
+          "input": "3",
+          "output": "['((()))','(()())','(())()','()(())','()()()']"
+        },
+        {
+          "input": "1",
+          "output": "['()']"
+        }
+      ],
+      "constraints": [
+        "Use the required function signature.",
+        "Return the expected result.",
+        "Optimize for the stated problem constraints."
+      ],
+      "test_cases": [
+        {
+          "input": "3",
+          "expected_output": "['((()))','(()())','(())()','()(())','()()()']",
+          "hidden": false
+        },
+        {
+          "input": "1",
+          "expected_output": "['()']",
+          "hidden": true
+        }
+      ]
+    }
+  ]
+}
