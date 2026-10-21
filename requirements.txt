@@ -1,17 +1,11 @@
 fastapi
 uvicorn[standard]
+gunicorn
 python-dotenv
-pydantic
 python-multipart
-
-# Database
-sqlalchemy
-pymysql
-
-# Authentication
 bcrypt
 PyJWT
-
-# HTTP/API
+sqlalchemy
+pymysql
 requests
 httpx
