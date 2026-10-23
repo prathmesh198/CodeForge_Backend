@@ -3,12 +3,10 @@ from fastapi.security import OAuth2PasswordBearer
 from fastapi.middleware.cors import CORSMiddleware
 
 from pydantic import BaseModel, EmailStr
-
 from jose import JWTError, jwt
 
 from compiler import execute_code
 from probelm import load_problems
-
 from db.database import get_db_connection
 
 from db.models import (
@@ -29,10 +27,6 @@ from auth import (
     ALGORITHM
 )
 
-
-# ==========================================================
-# FASTAPI APP
-# ==========================================================
 
 app = FastAPI(
     title="CodeForge API",
@@ -55,25 +49,11 @@ app.add_middleware(
 
     allow_credentials=True,
 
-    allow_methods=[
-        "GET",
-        "POST",
-        "PUT",
-        "DELETE",
-        "OPTIONS"
-    ],
+    allow_methods=["*"],
 
-    allow_headers=[
-        "Authorization",
-        "Content-Type",
-        "Accept"
-    ]
+    allow_headers=["*"]
 )
 
-
-# ==========================================================
-# OAUTH2
-# ==========================================================
 
 oauth2_scheme = OAuth2PasswordBearer(
     tokenUrl="login"
