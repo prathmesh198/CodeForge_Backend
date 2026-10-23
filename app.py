@@ -6,7 +6,7 @@ from jose import JWTError, jwt
 from compiler import execute_code
 from probelm import load_problems
 from db.database import get_db_connection
-
+from fastapi.middleware.cors import CORSMiddleware
 from db.models import (
     create_user,
     get_user_by_email,
