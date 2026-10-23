@@ -1,12 +1,16 @@
 from fastapi import FastAPI, HTTPException, Query, Depends
 from fastapi.security import OAuth2PasswordBearer
 from fastapi.middleware.cors import CORSMiddleware
+
 from pydantic import BaseModel, EmailStr
+
 from jose import JWTError, jwt
+
 from compiler import execute_code
 from probelm import load_problems
+
 from db.database import get_db_connection
-from fastapi.middleware.cors import CORSMiddleware
+
 from db.models import (
     create_user,
     get_user_by_email,
@@ -26,31 +30,59 @@ from auth import (
 )
 
 
-app = FastAPI()
+# ==========================================================
+# FASTAPI APP
+# ==========================================================
+
+app = FastAPI(
+    title="CodeForge API",
+    version="1.0.0"
+)
 
 
+# ==========================================================
+# CORS
+# ==========================================================
 
 app.add_middleware(
     CORSMiddleware,
+
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "https://code-forge-fe-339u.vercel.app"
     ],
+
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+
+    allow_methods=[
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE",
+        "OPTIONS"
+    ],
+
+    allow_headers=[
+        "Authorization",
+        "Content-Type",
+        "Accept"
+    ]
 )
 
 
-
+# ==========================================================
+# OAUTH2
+# ==========================================================
 
 oauth2_scheme = OAuth2PasswordBearer(
     tokenUrl="login"
 )
 
 
-
+# ==========================================================
+# REQUEST MODELS
+# ==========================================================
 
 class RegisterRequest(BaseModel):
     username: str
@@ -70,7 +102,9 @@ class ExecuteRequest(BaseModel):
     submit: bool = False
 
 
-
+# ==========================================================
+# HOME
+# ==========================================================
 
 @app.get("/")
 def read_root():
@@ -80,7 +114,9 @@ def read_root():
     }
 
 
-
+# ==========================================================
+# REGISTER
+# ==========================================================
 
 @app.post("/register")
 def register(data: RegisterRequest):
@@ -112,7 +148,9 @@ def register(data: RegisterRequest):
     }
 
 
-
+# ==========================================================
+# LOGIN
+# ==========================================================
 
 @app.post("/login")
 def login(data: LoginRequest):
@@ -147,8 +185,11 @@ def login(data: LoginRequest):
 
     return {
         "message": "Login successful",
+
         "access_token": token,
+
         "token_type": "bearer",
+
         "user": {
             "id": user["id"],
             "username": user["username"],
@@ -157,7 +198,9 @@ def login(data: LoginRequest):
     }
 
 
-
+# ==========================================================
+# GET CURRENT USER
+# ==========================================================
 
 def get_current_user(
     token: str = Depends(oauth2_scheme)
@@ -195,7 +238,7 @@ def get_current_user(
 
         raise HTTPException(
             status_code=401,
-            detail="Invalid token"
+            detail="Invalid or expired token"
         )
 
     user = get_user_by_id(
@@ -212,7 +255,9 @@ def get_current_user(
     return user
 
 
-
+# ==========================================================
+# ME
+# ==========================================================
 
 @app.get("/me")
 def current_user(
@@ -224,7 +269,9 @@ def current_user(
     }
 
 
-
+# ==========================================================
+# LOGOUT
+# ==========================================================
 
 @app.post("/logout")
 def logout():
@@ -234,20 +281,22 @@ def logout():
     }
 
 
-
+# ==========================================================
+# GET ALL PROBLEMS
+# ==========================================================
 
 @app.get("/problem")
 def read_problem():
 
     problems = load_problems()
 
-    # Never expose hidden tests
     safe_problems = []
 
     for problem in problems:
 
         safe_problem = problem.copy()
 
+        # Never expose hidden tests
         if "test_cases" in safe_problem:
 
             safe_problem["test_cases"] = [
@@ -263,7 +312,9 @@ def read_problem():
     return safe_problems
 
 
-
+# ==========================================================
+# GET SINGLE PROBLEM
+# ==========================================================
 
 @app.get("/problem/{problem_id}")
 def read_problem_by_id(
@@ -278,8 +329,7 @@ def read_problem_by_id(
 
             safe_problem = problem.copy()
 
-            # NEVER SEND HIDDEN TEST CASES
-            # TO FRONTEND
+            # Never send hidden test cases
             if "test_cases" in safe_problem:
 
                 safe_problem["test_cases"] = [
@@ -296,7 +346,9 @@ def read_problem_by_id(
     )
 
 
-
+# ==========================================================
+# SEARCH PROBLEMS
+# ==========================================================
 
 @app.get("/problem/search")
 def search_problem(
@@ -335,7 +387,9 @@ def search_problem(
     return filtered_problems
 
 
-
+# ==========================================================
+# SOLUTION
+# ==========================================================
 
 @app.get("/solution")
 def read_solution():
@@ -345,6 +399,9 @@ def read_solution():
     }
 
 
+# ==========================================================
+# ROADMAP
+# ==========================================================
 
 @app.get("/Roadmap")
 def read_roadmap():
@@ -354,7 +411,9 @@ def read_roadmap():
     }
 
 
-
+# ==========================================================
+# PROFILE
+# ==========================================================
 
 @app.get("/profile")
 def profile(
@@ -378,21 +437,31 @@ def profile(
     return {
 
         "user": {
+
             "id": current_user["id"],
+
             "username": current_user["username"],
+
             "email": current_user["email"]
+
         },
 
         "stats": {
+
             "solved": solved_count,
+
             "submissions": submission_count
+
         },
 
         "solved_problems": solved_problems
+
     }
 
 
-
+# ==========================================================
+# EXECUTE CODE
+# ==========================================================
 
 @app.post("/execute")
 def execute(
@@ -431,6 +500,7 @@ def execute(
         current_user["username"]
     )
 
+
     # ======================================================
     # FIND PROBLEM
     # ======================================================
@@ -462,6 +532,7 @@ def execute(
         problem.get("function_name")
     )
 
+
     # ======================================================
     # ALL TESTS
     # ======================================================
@@ -481,18 +552,14 @@ def execute(
         len(all_tests)
     )
 
+
     # ======================================================
     # RUN CODE
     # ======================================================
-    #
-    # Run Code:
-    # ONLY visible tests
-    #
-    # hidden = False
-    #
-    # ======================================================
 
     if not request.submit:
+
+        # Run Code = visible tests only
 
         test_cases = [
             test
@@ -503,23 +570,18 @@ def execute(
             )
         ]
 
-    # ======================================================
-    # SUBMIT
-    # ======================================================
-    #
-    # Submit:
-    # ALL tests
-    #
-    # ======================================================
-
     else:
 
+        # Submit = visible + hidden tests
+
         test_cases = all_tests
+
 
     print(
         "TESTS TO RUN:",
         len(test_cases)
     )
+
 
     # ======================================================
     # NO TESTS
@@ -528,16 +590,21 @@ def execute(
     if len(test_cases) == 0:
 
         return {
+
             "status": "Test Case Error",
+
             "passed_tests": 0,
+
             "total_tests": 0,
+
             "runtime_ms": None,
+
             "memory_kb": None,
-            "error": (
-                "No test cases found "
-                "for this problem"
-            )
+
+            "error":
+                "No test cases found for this problem"
         }
+
 
     # ======================================================
     # COUNTERS
@@ -552,6 +619,7 @@ def execute(
     total_runtime = 0.0
 
     max_memory = 0
+
 
     # ======================================================
     # RUN EACH TEST
@@ -588,23 +656,64 @@ def execute(
             expected_output
         )
 
+
         # ==================================================
         # EXECUTE COMPILER
         # ==================================================
 
-        result = execute_code(
-            code=request.code,
-            language=request.language,
-            function_name=problem.get(
-                "function_name"
-            ),
-            test_input=test_input
-        )
+        try:
+
+            result = execute_code(
+                code=request.code,
+
+                language=request.language,
+
+                function_name=problem.get(
+                    "function_name"
+                ),
+
+                test_input=test_input
+            )
+
+        except Exception as e:
+
+            print(
+                "EXECUTION ERROR:",
+                e
+            )
+
+            return {
+
+                "status": "Runtime Error",
+
+                "passed_tests": passed_tests,
+
+                "total_tests": total_tests,
+
+                "runtime_ms": (
+                    round(
+                        total_runtime,
+                        2
+                    )
+                    if total_runtime
+                    else None
+                ),
+
+                "memory_kb": (
+                    max_memory
+                    if max_memory
+                    else None
+                ),
+
+                "error": str(e)
+            }
+
 
         print(
             "JUDGE RESULT:",
             result
         )
+
 
         # ==================================================
         # STATUS
@@ -618,6 +727,7 @@ def execute(
             "Runtime Error"
         )
 
+
         # ==================================================
         # EXECUTION ERROR
         # ==================================================
@@ -625,16 +735,22 @@ def execute(
         if status_description != "Accepted":
 
             return {
+
                 "status": status_description,
+
                 "passed_tests": passed_tests,
+
                 "total_tests": total_tests,
+
                 "runtime_ms": result.get(
                     "time"
                 ),
+
                 "memory_kb": result.get(
                     "memory"
                 ),
-                "error": (
+
+                "error":
                     result.get("stderr")
                     or result.get(
                         "compile_output"
@@ -643,8 +759,8 @@ def execute(
                         "message"
                     )
                     or "Execution failed"
-                )
             }
+
 
         # ==================================================
         # RUNTIME
@@ -668,6 +784,7 @@ def execute(
         ):
 
             pass
+
 
         # ==================================================
         # MEMORY
@@ -693,6 +810,7 @@ def execute(
 
             pass
 
+
         # ==================================================
         # ACTUAL OUTPUT
         # ==================================================
@@ -704,9 +822,11 @@ def execute(
             or ""
         ).strip()
 
+
         expected_output = str(
             expected_output
         ).strip()
+
 
         # ==================================================
         # NORMALIZE OUTPUT
@@ -720,6 +840,7 @@ def execute(
             expected_output.split()
         )
 
+
         print(
             "ACTUAL:",
             actual_normalized
@@ -730,6 +851,7 @@ def execute(
             expected_normalized
         )
 
+
         # ==================================================
         # WRONG ANSWER
         # ==================================================
@@ -737,9 +859,13 @@ def execute(
         if actual_normalized != expected_normalized:
 
             return {
+
                 "status": "Wrong Answer",
+
                 "passed_tests": passed_tests,
+
                 "total_tests": total_tests,
+
                 "runtime_ms": (
                     round(
                         total_runtime,
@@ -748,14 +874,18 @@ def execute(
                     if total_runtime
                     else None
                 ),
+
                 "memory_kb": (
                     max_memory
                     if max_memory
                     else None
                 ),
+
                 "actual_output": actual_output,
+
                 "expected_output": expected_output
             }
+
 
         # ==================================================
         # PASSED
@@ -766,6 +896,7 @@ def execute(
         print(
             "TEST RESULT: PASSED"
         )
+
 
     # ======================================================
     # ALL TESTS PASSED
@@ -803,6 +934,7 @@ def execute(
         "======================================"
     )
 
+
     # ======================================================
     # SAVE SUBMISSION
     # ======================================================
@@ -812,19 +944,29 @@ def execute(
         try:
 
             create_submission(
+
                 user_id=current_user["id"],
+
                 problem_id=problem["id"],
+
                 problem_title=problem["title"],
+
                 language=request.language,
+
                 code=request.code,
+
                 status="Accepted",
+
                 passed_tests=passed_tests,
+
                 total_tests=total_tests,
+
                 runtime_ms=(
                     int(total_runtime)
                     if total_runtime
                     else None
                 ),
+
                 memory_kb=(
                     max_memory
                     if max_memory
@@ -843,14 +985,19 @@ def execute(
                 e
             )
 
+
     # ======================================================
     # RESPONSE
     # ======================================================
 
     return {
+
         "status": "Accepted",
+
         "passed_tests": passed_tests,
+
         "total_tests": total_tests,
+
         "runtime_ms": (
             round(
                 total_runtime,
@@ -859,6 +1006,7 @@ def execute(
             if total_runtime
             else None
         ),
+
         "memory_kb": (
             max_memory
             if max_memory
@@ -867,9 +1015,9 @@ def execute(
     }
 
 
-# ==================================================
+# ==========================================================
 # DATABASE TEST
-# ==================================================
+# ==========================================================
 
 @app.get("/db-test")
 def database_test():
@@ -889,6 +1037,7 @@ def database_test():
     connection.close()
 
     return {
+
         "message":
             "Database connected successfully",
 

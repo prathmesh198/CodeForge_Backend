@@ -1,9 +1,7 @@
 from datetime import datetime, timedelta
 
-from passlib.context import CryptContext
 from jose import jwt
-
-
+from passlib.context import CryptContext
 
 
 SECRET_KEY = "prathamesh"
@@ -11,7 +9,6 @@ SECRET_KEY = "prathamesh"
 ALGORITHM = "HS256"
 
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
-
 
 
 pwd_context = CryptContext(
@@ -29,17 +26,18 @@ def hash_password(password: str):
 
 def verify_password(
     password: str,
-    hashed_password: str
+    password_hash: str
 ):
 
     return pwd_context.verify(
         password[:72],
-        hashed_password
+        password_hash
     )
 
 
-
-def create_access_token(data: dict):
+def create_access_token(
+    data: dict
+):
 
     to_encode = data.copy()
 
